@@ -1,6 +1,7 @@
+
 # 🍰 Flutter Bakery App
 
-Aplikasi toko roti modern berbasis Flutter yang memudahkan pengguna untuk melihat daftar kue, mencari berdasarkan nama, serta melihat detail dan gambar dari setiap produk. Proyek ini terintegrasi dengan Firebase Firestore dan Firebase Storage.
+Aplikasi toko roti modern berbasis Flutter yang memungkinkan pengguna melihat daftar produk kue, mencari kue berdasarkan nama, melihat detail produk, serta menampilkan gambar-gambar menarik dari setiap kue. Terintegrasi dengan Firebase Firestore dan Firebase Storage.
 
 ---
 
@@ -26,12 +27,6 @@ Aplikasi toko roti modern berbasis Flutter yang memudahkan pengguna untuk meliha
 
 ---
 
-## 📷 Cuplikan Layar
-
-> *Tambahkan screenshot aplikasi kamu di sini (opsional tapi disarankan).*
-
----
-
 ## 🚀 Cara Menjalankan Proyek
 
 ### 1. Clone Repositori
@@ -39,15 +34,92 @@ Aplikasi toko roti modern berbasis Flutter yang memudahkan pengguna untuk meliha
 ```bash
 git clone https://github.com/Uyuu8/Flutter-Bakery-App.git
 cd Flutter-Bakery-App
+```
 
 ### 2. Install Dependency
 
 ```bash
 flutter pub get
+```
 
 ### 3. Tambahkan Konfigurasi Firebase
-Buat proyek baru di Firebase Console
-Aktifkan Cloud Firestore dan Firebase Storage
-Unduh file konfigurasi google-services.json
-Letakkan file tersebut di dalam folder:
-android/app/
+
+- Buat proyek baru di [Firebase Console](https://console.firebase.google.com/)
+- Aktifkan **Cloud Firestore** dan **Firebase Storage**
+- Unduh file konfigurasi `google-services.json`
+- Letakkan file tersebut di dalam folder:
+  `android/app/`
+
+### 4. Jalankan Aplikasi
+
+```bash
+flutter run
+```
+
+> Pastikan kamu sudah menghubungkan emulator atau perangkat Android.
+
+---
+
+## 📁 Struktur Folder
+
+```
+lib/
+├── main.dart           # Entry point aplikasi
+├── page/               # Semua halaman UI (home, detail, splash, dsb.)
+├── model/              # Data model (contoh: cake.dart)
+├── widget/             # Widget yang dapat digunakan ulang
+├── services/           # Koneksi dan fungsi Firestore
+├── utils/              # Konstanta dan helper function
+```
+
+---
+
+## 📷 Cuplikan Layar
+
+| Beranda | Detail Produk |
+|--------|----------------|
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/detail.png) |
+
+> *Catatan: Tambahkan screenshot ke folder `assets/screenshots/` jika ingin menampilkan tangkapan layar di atas.*
+
+---
+
+## ✅ Rencana Pengembangan (TODO)
+
+- [ ] Tambah autentikasi (login & register)
+- [ ] Tambah fitur keranjang dan checkout
+- [ ] Tambah fitur wishlist/favorit
+- [ ] Panel admin untuk CRUD data kue
+- [ ] Mode tema terang/gelap
+- [ ] Rilis APK untuk publik
+
+---
+
+## 🙌 Kontribusi
+
+Kontribusi sangat terbuka!  
+Kamu bisa:
+
+1. Fork repositori ini
+2. Buat branch baru untuk fitur yang ingin ditambahkan
+3. Lakukan pull request ke repositori utama
+
+Jika menemukan bug atau ingin request fitur baru, silakan buka tab [Issues](https://github.com/Uyuu8/Flutter-Bakery-App/issues).
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah **MIT License**.  
+Silakan digunakan, dimodifikasi, dan dikembangkan sesuai kebutuhan, baik untuk keperluan pribadi maupun komersial.
+
+---
+
+## 👨‍💻 Pengembang
+
+**Uyuu8**  
+📍 [GitHub Profil](https://github.com/Uyuu8)
+
+---
+
+> Dibuat dengan ❤️ menggunakan Flutter & Firebase
