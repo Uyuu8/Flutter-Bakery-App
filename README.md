@@ -39,3 +39,15 @@ Aplikasi toko roti modern berbasis Flutter yang memudahkan pengguna untuk meliha
 ```bash
 git clone https://github.com/Uyuu8/Flutter-Bakery-App.git
 cd Flutter-Bakery-App
+
+### 2. Install Dependency
+
+```bash
+flutter pub get
+
+### 3. Tambahkan Konfigurasi Firebase
+Buat proyek baru di Firebase Console
+Aktifkan Cloud Firestore dan Firebase Storage
+Unduh file konfigurasi google-services.json
+Letakkan file tersebut di dalam folder:
+android/app/
