@@ -1,16 +1,41 @@
-# cake_app_new
+# 🍰 Flutter Bakery App
 
-A new Flutter project.
+Aplikasi toko roti modern berbasis Flutter yang memudahkan pengguna untuk melihat daftar kue, mencari berdasarkan nama, serta melihat detail dan gambar dari setiap produk. Proyek ini terintegrasi dengan Firebase Firestore dan Firebase Storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Pencarian kue secara real-time
+- 🗂️ Tampilan kategori produk dalam dua mode (grid dan list)
+- 🖼️ Gambar produk dari Firebase Storage
+- ☁️ Integrasi Firebase Firestore (CRUD data kue)
+- 📱 Desain antarmuka modern dan responsif
+- 🔧 Manajemen state menggunakan Provider
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknologi yang Digunakan
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- [Firebase Storage](https://firebase.google.com/docs/storage)
+- [Provider](https://pub.dev/packages/provider)
+- Local SVG Assets
+
+---
+
+## 📷 Cuplikan Layar
+
+> *Tambahkan screenshot aplikasi kamu di sini (opsional tapi disarankan).*
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+### 1. Clone Repositori
+
+```bash
+git clone https://github.com/Uyuu8/Flutter-Bakery-App.git
+cd Flutter-Bakery-App
