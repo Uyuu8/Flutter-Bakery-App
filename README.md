@@ -76,9 +76,18 @@ lib/
 
 ## 📷 Cuplikan Layar
 
-| Beranda | Detail Produk |
-|--------|----------------|
-| ![Loading Screan](assets/loading.jpg) | ![Walkthrough 1](assets/walk1.jpg) | ![Walkthrough 2](assets/walk2.jpg) | ![Walkthrough 3](assets/walk3.jpg) | ![Login Screan](assets/login.jpg) | ![Home Page](assets/Home.jpg) | ![detail Screan](assets/detail.jpg) | ![Share](assets/share.jpg) | ![Favorites](assets/favorit.jpg) | ![Keranjang](assets/cart.jpg) | ![Manage Cake](assets/mc.jpg) | ![CRUD Cake](assets/crud.jpg) |
+| Loading Screen | Walkthrough 1 | Walkthrough 2 | Walkthrough 3 |
+|----------------|---------------|---------------|----------------|
+| ![](assets/loading.jpg) | ![](assets/walk1.jpg) | ![](assets/walk2.jpg) | ![](assets/walk3.jpg) |
+
+| Login Screen | Home Page | Detail Screen | Share |
+|--------------|-----------|---------------|-------|
+| ![](assets/login.jpg) | ![](assets/Home.jpg) | ![](assets/detail.jpg) | ![](assets/share.jpg) |
+
+| Favorites | Keranjang | Manage Cake | CRUD Cake |
+|-----------|-----------|-------------|------------|
+| ![](assets/favorit.jpg) | ![](assets/cart.jpg) | ![](assets/mc.jpg) | ![](assets/crud.jpg) |
+
 
 
 > *Catatan: Tambahkan screenshot ke folder `assets/screenshots/` jika ingin menampilkan tangkapan layar di atas.*
