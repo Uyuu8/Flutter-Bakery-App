@@ -78,7 +78,8 @@ lib/
 
 | Beranda | Detail Produk |
 |--------|----------------|
-| ![](assets/screenshots/home.png) | ![](assets/screenshots/detail.png) |
+| ![Loading Screan](assets/screenshots/loading.jpg) | ![Walkthrough 1](assets/screenshots/walk1.jpg) | ![Walkthrough 2](assets/screenshots/walk2.jpg) | ![Walkthrough 3](assets/screenshots/walk3.jpg) | ![Login Screan](assets/screenshots/login.jpg) | ![Home Page](assets/screenshots/Home.jpg) | ![detail Screan](assets/screenshots/detail.jpg) | ![Share](assets/screenshots/share.jpg) | ![Favorites](assets/screenshots/favorit.jpg) | ![Keranjang](assets/screenshots/cart.jpg) | ![Manage Cake](assets/screenshots/mc.jpg) | ![CRUD Cake](assets/screenshots/crud.jpg) |
+
 
 > *Catatan: Tambahkan screenshot ke folder `assets/screenshots/` jika ingin menampilkan tangkapan layar di atas.*
 
